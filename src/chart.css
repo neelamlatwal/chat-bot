@@ -15,47 +15,6 @@
     animation: App-logo-spin infinite 0.5s linear;
     height: 10vmin;
   }
-
-  /* page wrapper */
-  .page-wrapper{
-    position: relative;
-    height: 100vh;
-
-  }
-  .page-wrapper .chat-btn{
-    position: absolute;
-    background-color: #233c94 !important;
-    color: #ffffff !important;
-    border-color: transparent #233c94 transparent transparent;
-    align-items: center;
-    border-radius: 34px 8px 34px 34px;
-    bottom: 6px;
-    box-shadow: 0 5px 4px 0 rgb(0 0 0 / 26%);
-    color: #fff;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    right: 30px;
-    bottom: 30px;
-    z-index: 9995;
-    height: 60px;
-    width: 60px;
-}
-.page-wrapper .chatWindow{
-
-  background-color: #f4f5f7;
-  max-height: 720px;
-  overflow: hidden;
-  height: calc(100% - 52px);
-  width: 384px;
-}
-.page-wrapper .chat-header{
-  height: 6.5rem;
-  background-color: #233c94 !important;
-}
-  
-
   .form {
     display: flex;
     flex-direction: column;
@@ -209,7 +168,6 @@
     border-bottom-color: transparent;
   }
   .self {
-    display: flex;
     justify-content: flex-end;
     align-items: flex-end;
   }
